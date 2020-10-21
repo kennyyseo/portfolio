@@ -9,10 +9,25 @@
     font-size: 100px;
     padding-top: 150px;
     font-family: 'Monoton', cursive;
+    text-shadow: -1px 0 white, 0 1px black, 1px 0 black, 0 -1px black;
 }   
 
-.aboutme, .skills, .education {
-    margin: 30px;
+.aboutme{
+    margin: 40px 0 40px 0;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+
+.skills{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+
+.education {
+    margin-bottom: 40px;
     font-size: 40px;
     font-family: 'Karla', sans-serif;
     color: black;
@@ -24,30 +39,36 @@
     border-radius: 100px;
 }
 
+
 .namecard {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin: 0 100px 40px 0;
+    margin: 0 100px 100px 0;
     font-family: 'Karla', sans-serif;
 }
 
 .skillscard {
     display: flex;
     flex-direction: row;
+    flex-basis: 33%;
     justify-content: space-around;
     align-items: center;
-    margin: 0 100px 40px 0;
+    margin: 0 0 100px 0;
     font-family: 'Karla', sans-serif;
 }
 
 .educationcard {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     left: 50%;
     right: 50%;
-    margin: 0 100px 40px 0;
+    padding-bottom: 150px;
     font-family: 'Karla', sans-serif;
+}
+
+.skills-item {
+    margin: 5px;
 }
