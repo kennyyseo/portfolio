@@ -12,4 +12,9 @@
 
 .nav-link {
     margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
 }

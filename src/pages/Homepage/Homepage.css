@@ -1,0 +1,53 @@
+.Homepage {
+    background-image: url(https://i.imgur.com/hFiytek.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.Homepage-h1 {
+    color: black;
+    font-size: 100px;
+    padding-top: 150px;
+    font-family: 'Monoton', cursive;
+}   
+
+.aboutme, .skills, .education {
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+
+.photo {
+    margin: 0 50px 0 100px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.namecard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 100px 40px 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.skillscard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px 40px 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.educationcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    left: 50%;
+    right: 50%;
+    margin: 0 100px 40px 0;
+    font-family: 'Karla', sans-serif;
+}

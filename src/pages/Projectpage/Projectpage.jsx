@@ -4,7 +4,7 @@ import './Projectpage.css'
 const Projectpage = () => {
     return (
         <div className='Projectpage'>
-            Projectpage
+            <h1 className='Projectpage-h1'>My Projects</h1>
         </div>
     )
 }
