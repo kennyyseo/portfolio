@@ -7,12 +7,15 @@ const Homepage = () => {
             <div className='Homepage'>
                 <h1 className='Homepage-h1'>Kenny &nbsp; Seo</h1>
             </div>
+            <div className='intro'>
+                <h2>I'm Kenny, and I'm an aspiring full-stack developer with a background in digital media.</h2>
+            </div>
             <div className='aboutme'>
                 <h2>About Me</h2>
             </div>
             <div className='namecard'>
                 <img className='photo' src="https://i.imgur.com/tp3CDA5.jpgs" alt="" />
-                <p className='description'> As a recent graduate of the Software Engineering Immersive course at General Assembly, I've discovered the exciting world of programming! My time as a Sales Executive in the programmatic media space has made me aware of the lack of streamlined communication between customers' needs and product/engineering teams' roadmaps, and I look forward to helping bridge the gap on your team!</p>
+                <p className='description'> As a recent graduate of General Assembly's Software Engineering Immersive course, I've discovered the exciting world of programming! My time as a Sales Executive in the programmatic media space has made me aware of the lack of streamlined communication between customers' needs and product & engineering teams' roadmaps, and I look forward to helping bridge the gap on your team!</p>
             </div>
             <div className='skills'>
                 <h2>Skills</h2>
@@ -46,8 +49,10 @@ const Homepage = () => {
                 <h2>Education</h2>
             </div>
             <div className='educationcard'>
-                <p>General Assembly: Software Engineering Immersive - 2020 </p>
-                <p>University of Southern California: B.S. in Business Management - 2013</p>
+                <div className='educationblock'>
+                    <p><span>General Assembly</span>: Software Engineering Immersive - 2020 </p>
+                    <p><span>University of Southern California</span>: B.S. in Business Management - 2013</p>
+                </div>
             </div>
         </div>
     )

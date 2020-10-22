@@ -1,3 +1,31 @@
+.Contactpage {
+    font-family: 'Karla', sans-serif;
+}
+
+.Contactpage-name {
+    font-family: 'Karla', sans-serif;
+    font-size: 80px;
+    margin: 80px 0 40px 0;
+}
+
 .Contactpage-h1{
-    margin-top: 20px;
+    margin: 80px 0 100px 0;
+}
+
+#email-icon, #github-icon, #li-icon {
+    max-height: 25px;
+    margin-right: 20px;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+.email, .github, .linkedin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
 }

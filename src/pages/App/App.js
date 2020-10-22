@@ -11,8 +11,11 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-
     }
+  }
+
+  handleResumeDownload = () => {
+
   }
 
   render() {
@@ -22,9 +25,6 @@ class App extends Component {
         <Switch>
           <Route exact path='/' render={() =>
             <Homepage />
-          } />
-          <Route exact path='/resume' render={() =>
-            <Resumepage />
           } />
           <Route exact path='/projects' render={() =>
             <Projectpage />

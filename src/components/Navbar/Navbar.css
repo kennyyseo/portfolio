@@ -8,6 +8,8 @@
 .navbar-nav {
   display: flex;
   flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .nav-link {

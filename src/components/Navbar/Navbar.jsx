@@ -5,7 +5,6 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <nav className="navbar navbar-light bg-light">
-            <Link to="/" className='navbar-brand'> Kenny Seo </Link>
             <ul className="navbar-nav">
                 <li className="nav-item">
                     <Link to="/" className="nav-link"> Home </Link>
@@ -14,7 +13,7 @@ const Navbar = () => {
                     <Link to="/projects" className="nav-link"> Projects </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/resume" className="nav-link"> Resume </Link>
+                    <Link className='nav-link' to="/documents/Resume-KennySeo.pdf" target="_blank" download>Resume</Link>
                 </li>
                 <li className="nav-item">
                     <Link to="/contact" className="nav-link"> Contact </Link>
