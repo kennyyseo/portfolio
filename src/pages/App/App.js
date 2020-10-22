@@ -3,7 +3,6 @@ import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Homepage from '../Homepage/Homepage';
-import Resumepage from '../Resumepage/Resumepage';
 import Projectpage from '../Projectpage/Projectpage';
 import Contactpage from '../Contactpage/Contactpage';
 
