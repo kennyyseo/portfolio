@@ -15,7 +15,7 @@ const Homepage = () => {
             </div>
             <div className='namecard'>
                 <img className='photo' src="https://i.imgur.com/tp3CDA5.jpgs" alt="" />
-                <p className='description'> As a recent graduate of General Assembly's Software Engineering Immersive course, I've discovered the exciting world of programming! My time as a Sales Executive in the programmatic media space has made me aware of the lack of streamlined communication between customers' needs and product & engineering teams' roadmaps, and I look forward to helping bridge the gap on your team!</p>
+                <p className='description'> As a recent graduate of General Assembly's Software Engineering Immersive course, I've discovered the exciting world of programming! My time as a Sales Executive in the programmatic media space has made me aware of the lack of streamlined communication between customers' needs and product & engineering teams' roadmaps, and I look forward to helping bridge the gap on your team. On a side note, I am a proud Phoenix transplant living in LA and it's been tough to see LA teams do so well recently, but I'm holding on to the hope that one of our teams will win it all in my lifetime!</p>
             </div>
             <div className='skills'>
                 <h2>Skills</h2>

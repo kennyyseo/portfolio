@@ -4,7 +4,9 @@ import './Contactpage.css'
 const Contactpage = () => {
     return (
         <div className='Contactpage'>
-            <h1 className='Contactpage-h1'>Let's get in touch!</h1>
+            <div className='contactpage'>
+                <h1 className='contactpage-h1'>Get &nbsp; In &nbsp; Touch!</h1>
+            </div>
             <h1 className='Contactpage-name'>Kenny Seo</h1>
             <div className='contact-items'>
                 <div className='email'>

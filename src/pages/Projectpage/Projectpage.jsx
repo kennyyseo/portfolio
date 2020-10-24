@@ -4,7 +4,9 @@ import './Projectpage.css'
 const Projectpage = () => {
     return (
         <div className='Projectpage'>
-            <h1 className='Projectpage-h1'>My Projects</h1>
+            <div className='projectpage'>
+                <h1 className='projectpage-h1'>My &nbsp; Projects</h1>
+            </div>
             <h2 id='project-name'>Connect 4</h2>
             <div className='project'>
                 <img className='img' src="https://i.imgur.com/AdcGkzx.png" alt="" />
