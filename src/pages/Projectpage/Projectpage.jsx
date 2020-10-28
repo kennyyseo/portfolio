@@ -18,14 +18,14 @@ const Projectpage = () => {
             <div className='project'>
                 <img className='img' src="https://i.imgur.com/A4wlJZs.png" alt="" />
                 <div className='overlay'>
-                    <div className='text'>This is Meeting Tracker, an app where users can log the various meetings that they've recently been on.</div>
+                    <div className='text'>Meeting Tracker is a tool that users can utilize to log all the various work meetings that they go on. Sign in through Google Oauth to get started.</div>
                 </div>
             </div>
             <h2 id='project-name'>Find-a-Pet</h2>
             <div className='project'>
                 <img className='img' src="https://i.imgur.com/AhumTmP.png" alt="" />
                 <div className='overlay'>
-                    <div className='text'>This is Find-a-Pet, an app where users can search adoptable animals around them.</div>
+                    <div className='text'>Use Find-a-Pet to find local adoptable animals. This was a group project with two of my peers, and my focus was on the front-end.</div>
                 </div>
             </div>
             <h2 id='project-name'>Stork</h2>
